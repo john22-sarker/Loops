@@ -1,25 +1,13 @@
-i = 1
-while i<4:
-    print('Hi')
-    i = i+1
-
-x = 1
-y = 2
-while x<=10:
-    print(x*y)
-    x = x+1
-d = 'John','sarker'
-for i in d:
-    print(d)
-
-for k in range(1,17,2):
-    print(k)
-
-h = int(input('Enter any Number:'))
-for o in range(h,0,-1):
-    if o == 2:
-        break
-    print(o)
+h = int(input('Enter any Number in (6,7,8,9,10):'))
+if h<6:
+    print('Please enter a right number!')
+else:
+ for o in range(h, 0, -1):
+        if o == 2:
+            break
+        if o == 5:
+            continue
+        print(f'{o} + Congratulation!')
     
 i = 1
 while i<= 10:
