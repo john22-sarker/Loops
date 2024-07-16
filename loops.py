@@ -1,4 +1,27 @@
 i = 1
+while i<4:
+    print('Hi')
+    i = i+1
+
+x = 1
+y = 2
+while x<=10:
+    print(x*y)
+    x = x+1
+d = 'John','sarker'
+for i in d:
+    print(d)
+
+for k in range(1,17,2):
+    print(k)
+
+h = int(input('Enter any Number:'))
+for o in range(h,0,-1):
+    if o == 2:
+        break
+    print(o)
+    
+i = 1
 while i<= 10:
     print(f'2*{i} = {i*2}')
     i+= 1
